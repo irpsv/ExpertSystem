@@ -1,0 +1,37 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    background: url('/es2/img/fon.png');
+    margin: 20px;
+}
+
+body > div {
+    width: 1000px;
+    margin: auto;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.main {
+    width: 960px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px #222222;
+}
+
+label {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+input + label {
+    font-weight: normal;
+}
+
+input:checked + label {
+    font-weight: bold;
+}
