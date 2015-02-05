@@ -1,0 +1,25 @@
+.ofv-main {
+    padding: 10px;
+}
+
+.ofv-main hr {
+    border-top: 1px solid #ddd;
+    margin: 10px;
+}
+
+.ofv-name-model {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.ofv-block {
+    padding: 0px 10px;
+}
+
+.ofv-block button {
+    width: 40px;
+}
+
+.ofv-buttons {
+    
+}

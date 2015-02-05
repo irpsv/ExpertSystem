@@ -1,0 +1,25 @@
+input[type=radio] {
+	display: none;
+}
+
+input[type=radio] + label {
+	cursor: pointer;
+}
+
+input[type=radio] + label > span {
+	display: inline-block;
+	vertical-align: middle;
+	width: 19px;
+	height: 19px;
+	margin: 5px;
+	margin-right: 10px;
+	background: url('/es1/img/radio.png') left top no-repeat;
+}
+
+input[type=radio]:checked + label {
+	font-weight: bold;
+}
+
+input[type=radio]:checked + label > span {
+	background: url('/es1/img/radio.png') -19px top no-repeat;
+}

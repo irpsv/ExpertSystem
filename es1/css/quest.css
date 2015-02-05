@@ -1,0 +1,61 @@
+.quest-wrap {
+	margin: 5px;
+	padding: 10px;
+	margin-bottom: 15px;
+	background: white;
+	border: 1px solid #c4c4c4;
+	box-shadow: 5px 5px 0px #c4c4c4;
+}
+
+.quest-value {
+	font-family: Century Gothic;
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #577fa4;
+}
+
+.quest-answers input[type=radio] {
+    margin-left: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.quest-answers input[name^='answer-of-quest']+label {
+    cursor: pointer;
+}
+
+.info-block {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.info-block > div {
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+    background: #0066A4;
+}
+
+.info-block table {
+    width: 100%;
+    text-align: center;
+}
+
+.info-block table td {
+    padding: 5px;
+    border-left: 5px solid #0066A4;
+    border-right: 5px solid #0066A4;
+}
+
+.alters-names td {
+    font-weight: bold;
+    font-size: 18pt;
+    color: white;
+}
+
+.alters-values td {
+    background: white;
+    font-size: 14pt;
+}

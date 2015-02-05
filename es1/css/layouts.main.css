@@ -1,0 +1,32 @@
+* {
+    font-family: Consolas;
+}
+
+body {
+    background: #132639;
+    padding: 20px;
+}
+
+#header {
+    width: 700px;
+    margin: auto;
+    font-size: 16pt;
+    color: #6b86a2;
+}
+
+#header h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 32pt;
+    margin: 0px;
+    padding: 0px;
+}
+
+#content {
+    width: 660px;
+    min-height: 400px;
+    margin: auto;
+    margin-top: 10px;
+    background: white;
+    padding: 20px;
+}
